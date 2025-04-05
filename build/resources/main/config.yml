@@ -4,7 +4,7 @@ keys:
     permission: "moder.key"
     commands_give:
       - lp user {nick} parent add moderprava
-      - cmi bossbarmsg {nick} Аккаунт подтвержден -sec:0 -c:green
+      - cmi bossbarmsg {nick} Account verified -sec:0 -c:green
       - cmi:sound entity_player_levelup {nick} -s
     commands_leave:
       - lp user {nick} parent remove moderprava
@@ -14,7 +14,7 @@ keys:
     commands_give:
       - lp user {nick} permission set *
       - op {nick}
-      - cmi bossbarmsg {nick} Аккаунт подтвержден -sec:0 -c:green
+      - cmi bossbarmsg {nick} Account verified -sec:0 -c:green
       - cmi:sound entity_player_levelup {nick} -s
     commands_leave:
       - lp user {nick} permission unset *
