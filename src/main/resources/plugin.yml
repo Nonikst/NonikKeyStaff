@@ -1,0 +1,9 @@
+name: NonikKeyStaff
+version: 1.0
+main: org.exampleomc.nonikKeyStaff.NonikKeyStaff
+api-version: 1.16
+author: NonikStudioo
+description: Plugin for managing permissions  using keys.
+commands:
+  key:
+    description: Use the key to get permissions.

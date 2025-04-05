@@ -1,0 +1,9 @@
+name: NonikKeyStaff
+version: 1.0
+main: org.exampleomc.nonikKeyStaff.NonikKeyStaff
+api-version: 1.16
+author: NonikStudioo
+description: Плагин для управления административными правами с использованием ключей.
+commands:
+  key:
+    description: Используйте ключ для получения прав.
